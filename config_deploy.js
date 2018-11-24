@@ -11,7 +11,7 @@ const config_deploy = {
     // set deployment method; use one of:
     //'debug', 'localServer', 'MTurk',
     // 'MTurkSandbox', 'Prolific', 'directLink'
-    deployMethod: "debug",
+    deployMethod: "directLink",
 
     // who to contact in case of trouble
     contact_email: "mchfranke@gmail.com",
