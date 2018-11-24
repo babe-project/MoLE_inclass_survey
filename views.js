@@ -28,9 +28,9 @@ let mainView = babeViews.forcedChoice({
 let postTestView = babeViews.postTest({
     name: 'posttest',
     trials: 1,
-    title: "Additional Info",
+    title: "Additional Comments",
     text:
-        "Answering the following questions is optional, but will help us understand your answers."
+        "If you have any further comments, please give them here."
 });
 
 let thanksView = babeViews.thanks({
